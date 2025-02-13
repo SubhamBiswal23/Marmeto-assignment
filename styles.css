@@ -1,0 +1,124 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f6eeee;
+}
+
+.product-page {
+    display: flex;
+    background-color: #fff;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+    flex: 1;
+    margin-right: 10px;
+    margin-left: 40px;
+}
+
+.product-image img {
+    width: 60%;
+    border-radius: 10px;
+}
+
+.thumbnails {
+    display: flex;
+    margin-top: 10px;
+}
+
+.thumbnails img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-details {
+    flex: 2;
+}
+
+.product-details h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-details .price {
+    font-size: 20px;
+    color: #e74c3c;
+    margin-bottom: 10px;
+}
+
+.product-details .original-price {
+    text-decoration: line-through;
+    color: #999;
+    margin-left: 10px;
+}
+
+
+.color-selector, .size-selector, .quantity-selector {
+    margin-bottom: 20px;
+}
+
+.color-selector label, .size-selector label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.color-options, .size-options {
+    display: flex;
+}
+
+.color-options div, .size-options div {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.color-options div {
+    background-color: #ddd;
+}
+
+.size-options div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.quantity-selector input {
+    width: 50px;
+    text-align: center;
+}
+
+.add-to-cart {
+    display: flex;
+    align-items: center;
+}
+
+.add-to-cart button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-description {
+    margin-top: 20px;
+}

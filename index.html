@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="product-page">
+        <div class="product-image">
+            <img src="product-image.jpg" alt="Embrace Sideboard">
+            <div class="thumbnails">
+                <img src="thumbnail1.jpg" alt="Thumbnail 1">
+                <img src="thumbnail2.jpg" alt="Thumbnail 2">
+                <img src="thumbnail3.jpg" alt="Thumbnail 3">
+        
+            </div>
+        </div>
+        <div class="product-details">
+            <h1>Embrace Sideboard</h1>
+            <div class="price">
+                $12,999.00
+                <span class="original-price">$19,999.00</span>
+            </div>
+            
+            <div class="color-selector">
+                <label for="color">Choose a Color</label>
+                <div class="color-options">
+                    <div style="background-color: #f39c12;"></div>
+                    <div style="background-color: #27ae60;"></div>
+                    <div style="background-color: #2980b9;"></div>
+                </div>
+            </div>
+            <div class="size-selector">
+                <label for="size">Choose a Size</label>
+                <div class="size-options">
+                    <div>S</div>
+                    <div>M</div>
+                    <div>L</div>
+                </div>
+            </div>
+            <div class="quantity-selector">
+                <label for="quantity">Quantity</label>
+                <input type="number" value="1" min="1">
+            </div>
+            <div class="add-to-cart">
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-description">
+                <p>The Embrace Sideboard is a blend of modern design and functionality. It offers ample storage space with a touch of elegance.</p>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
